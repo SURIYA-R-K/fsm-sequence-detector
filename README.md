@@ -31,14 +31,14 @@ The FSM is built using **True Single Phase Clock (TSPC) D Flip-Flops** for high-
 
 | Type | Description |
 |------|-------------|
-| `images/schematic.jpg` | FSM logic schematic |
-| `images/TSPC_D_flip-flops_Schematic.png` | TSPC D flip-flops Schematic |
-| `images/symbol_view.jpg` | Custom symbol created for FSM |
-| `images/testbench.jpg` | Testbench schematic with clock and input |
-| `images/waveform_output.jpg` | Simulation waveform showing detection |
-| `images/state_diagram.jpg` | FSM state diagram |
-| `images/truth_table_kmap.jpg` | Truth table and K-map simplification |
-| `images/Boolean_equations_truth_table.jpg` |  Boolean logic equations |
+| `![](images/schematic.jpg)` | FSM logic schematic |
+| `![](images/TSPC_D_flip-flops_Schematic.png)` | TSPC D flip-flops Schematic |
+| `![](images/symbol_view.jpg)` | Custom symbol created for FSM |
+| `![](images/testbench.jpg)` | Testbench schematic with clock and input |
+| `![](images/waveform_output.jpg)` | Simulation waveform showing detection |
+| `![](images/state_diagram.jpg)` | FSM state diagram |
+| `![](images/truth_table_kmap.jpg)` | Truth table and K-map simplification |
+| `![](images/Boolean_equations_truth_table.jpg)` |  Boolean logic equations |
 
 ---
 
