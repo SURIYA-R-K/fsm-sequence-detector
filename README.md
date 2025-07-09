@@ -29,16 +29,17 @@ The FSM is built using **True Single Phase Clock (TSPC) D Flip-Flops** for high-
 
 ## 🛠️ Project Contents
 
-| Type | Description |
-|------|-------------|
-| `![](images/schematic.jpg)` | FSM logic schematic |
-| `![](images/TSPC_D_flip-flops_Schematic.png)` | TSPC D flip-flops Schematic |
-| `![](images/symbol_view.jpg)` | Custom symbol created for FSM |
-| `![](images/testbench.jpg)` | Testbench schematic with clock and input |
-| `![](images/waveform_output.jpg)` | Simulation waveform showing detection |
-| `![](images/state_diagram.jpg)` | FSM state diagram |
-| `![](images/truth_table_kmap.jpg)` | Truth table and K-map simplification |
-| `![](images/Boolean_equations_truth_table.jpg)` |  Boolean logic equations |
+| Image Preview | Description |
+|---------------|-------------|
+| [📷 FSM Schematic](images/schematic.jpg) | FSM logic schematic |
+| [📷 TSPC D Flip-Flops](images/TSPC_D_flip-flops_Schematic.png) | TSPC D flip-flops schematic |
+| [📷 Symbol View](images/symbol_view.jpg) | Custom symbol created for FSM |
+| [📷 Testbench](images/testbench.jpg) | Testbench schematic with clock and input |
+| [📷 Waveform Output](images/waveform_output.jpg) | Simulation waveform showing detection |
+| [📷 State Diagram](images/state_diagram.jpg) | FSM state diagram |
+| [📷 Truth Table + K-Map](images/truth_table_kmap.jpg) | Truth table and K-map simplification |
+| [📷 Boolean Equations](images/Boolean_equations_truth_table.jpg) | Boolean logic equations |
+
 
 ---
 
