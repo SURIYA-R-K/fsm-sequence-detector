@@ -32,12 +32,13 @@ The FSM is built using **True Single Phase Clock (TSPC) D Flip-Flops** for high-
 | Type | Description |
 |------|-------------|
 | `images/schematic.jpg` | FSM logic schematic |
+| `images/TSPC_D_flip-flops_Schematic.png` | TSPC D flip-flops Schematic |
 | `images/symbol_view.jpg` | Custom symbol created for FSM |
 | `images/testbench.jpg` | Testbench schematic with clock and input |
 | `images/waveform_output.jpg` | Simulation waveform showing detection |
 | `images/state_diagram.jpg` | FSM state diagram |
 | `images/truth_table_kmap.jpg` | Truth table and K-map simplification |
-| `notes/Boolean_equations.jpg` |  Boolean logic equations |
+| `images/Boolean_equations_truth_table.jpg` |  Boolean logic equations |
 
 ---
 
@@ -92,12 +93,7 @@ The FSM is built using **True Single Phase Clock (TSPC) D Flip-Flops** for high-
 
 ---
 
-## ✍️ Author
-
-**SURIYA R K - BE EEE**   
-
----
-## 🧠 What I Learned
+## 🧠 Insights Gained
 
 - FSM Design (Mealy machine)
 - K-map simplification for logic expressions
@@ -112,6 +108,12 @@ The FSM is built using **True Single Phase Clock (TSPC) D Flip-Flops** for high-
 - Include power and delay analysis using Spectre  
 - RTL version in Verilog for FPGA comparison  
 - Implement using FinFET PDK for scaled power analysis
+
+## ✍️ Author
+
+**SURIYA R K - BE EEE**   
+
+---
 
 
 
