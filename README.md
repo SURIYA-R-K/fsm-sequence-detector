@@ -73,13 +73,6 @@ The FSM is built using **True Single Phase Clock (TSPC) D Flip-Flops** for high-
 - The output **Y** goes HIGH as soon as the sequence `1010` is detected.
 - Simulation waveform confirms correct FSM behavior.
 
----
-
-## 📸 Screenshots
-
-| FSM Schematic | Waveform Output |
-|---------------|-----------------|
-| (![image](https://github.com/user-attachments/assets/c34ae955-dfd3-4eef-b359-3451f7a666b9) | (![image](https://github.com/user-attachments/assets/9a794a1b-83e0-4455-8fba-b435a4ad085f) |
 
 ---
 
