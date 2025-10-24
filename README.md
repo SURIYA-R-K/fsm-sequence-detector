@@ -1,7 +1,12 @@
 # FSM Sequence Detector (1010) using Cadence Virtuoso
 
-This project implements a 4-bit sequence detector (detecting `1010`) using a **Mealy Finite State Machine (FSM)** in **Cadence Virtuoso**.  
-The FSM is built using **True Single Phase Clock (TSPC) D Flip-Flops** for high-speed performance.
+This project implements a **4-bit sequence detector** designed to detect the binary sequence **1010** using a **Mealy Finite State Machine (FSM)** in **Cadence Virtuoso**. The FSM is designed with overlapping sequence detection, which allows it to detect consecutive occurrences of the sequence without missing any bits.
+
+The FSM is realized using **True Single Phase Clock (TSPC) D Flip-Flops**, chosen for their **high-speed operation and low-power consumption**, making them ideal for fast digital circuits. The Mealy machine model is employed, so the output Y responds immediately to the input sequence, providing faster detection compared to a Moore FSM.
+
+The design process involved deriving the **next-state logic and output equations** using truth tables and K-map simplification. The schematic was implemented in Cadence Virtuoso, and simulation was performed using Spectre to verify correct functionality. **Transient analysis** confirmed that the FSM correctly detects the 1010 sequence and produces overlapping outputs where applicable.
+
+This project demonstrates not only the principles of FSM design and sequential logic but also the practical application of TSPC D Flip-Flops for high-performance digital circuits, giving hands-on experience in VLSI design and verification.
 
 ---
 
