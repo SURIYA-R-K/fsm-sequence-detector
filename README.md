@@ -1,13 +1,13 @@
-# FSM Sequence Detector (110) using Cadence Virtuoso
+# FSM Sequence Detector (1010) using Cadence Virtuoso
 
-This project implements a 3-bit sequence detector (detecting `110`) using a **Mealy Finite State Machine (FSM)** in **Cadence Virtuoso**.  
+This project implements a 4-bit sequence detector (detecting `1010`) using a **Mealy Finite State Machine (FSM)** in **Cadence Virtuoso**.  
 The FSM is built using **True Single Phase Clock (TSPC) D Flip-Flops** for high-speed performance.
 
 ---
 
 ## 🔧 Project Description
 
-- Detects binary sequence: **110**
+- Detects binary sequence: **1010**
 - FSM Type: **Mealy**
 - Implemented using logic derived from truth tables and K-maps
 - Constructed using **TSPC D flip-flops**
@@ -18,9 +18,9 @@ The FSM is built using **True Single Phase Clock (TSPC) D Flip-Flops** for high-
 
 ## 🧠 FSM Design Summary
 
-- **States**: S0 → S1 → S2 → S3 (using 2 flip-flops)
-- **Output Y** becomes `1` when sequence `110` is detected
-- **DA, DB, and Y** expressions derived using Boolean minimization
+- **States**: S0 → S1 → S2 → S3 → S4 (using 2 flip-flops)
+- **Output Y** becomes `1` when sequence `1010` is detected
+- **D1, D0, and Y** expressions derived using Boolean minimization
 
 ---
 
@@ -49,31 +49,28 @@ The FSM is built using **True Single Phase Clock (TSPC) D Flip-Flops** for high-
 | Parameter      | Value         |
 |----------------|---------------|
 | V1 (Low)       | 0V            |
-| V2 (High)      | 1V            |
-| Period         | 2ns           |
-| Rise/Fall Time | 50ps          |
-| Pulse Width    | 1ns           |
+| V2 (High)      | 1.8V          |
+| Period         | 50s           |
+| Pulse Width    | 25s           |
 
 ### 🔁 Input Pulse (VPULSE)
 | Parameter      | Value         |
 |----------------|---------------|
 | V1 (Low)       | 0V            |
-| V2 (High)      | 1V            |
-| Period         | 6ns           |
-| Rise/Fall Time | 50ps          |
-| Pulse Width    | 1ns           |
-| Delay          | 500ps         |
+| V2 (High)      | 1.8V          |
+| Period         | 50s           |
+| Pulse Width    | 25s           |
 
 ### 🔋 VDC Supply
 | Parameter      | Value         |
 |----------------|---------------|
-| DC Voltage     | 1V            |
+| DC Voltage     | 1.8V          |
 
 ---
 
 ## ✅ Output Verification
 
-- The output **Y** goes HIGH as soon as the sequence `110` is detected.
+- The output **Y** goes HIGH as soon as the sequence `1010` is detected.
 - Simulation waveform confirms correct FSM behavior.
 
 ---
