@@ -10,7 +10,7 @@ This project demonstrates not only the principles of FSM design and sequential l
 
 ---
 
-## 🔧 Project Description
+##  Project Description
 
 - Detects binary sequence: **1010**
 - FSM Type: **Mealy**
@@ -21,7 +21,7 @@ This project demonstrates not only the principles of FSM design and sequential l
 
 ---
 
-## 🧠 FSM Design Summary
+##  FSM Design Summary
 
 - **States**: S0 → S1 → S2 → S3 → S4 (using 2 flip-flops)
 - **Output Y** becomes `1` when sequence `1010` is detected
@@ -32,7 +32,7 @@ This project demonstrates not only the principles of FSM design and sequential l
 # BLOCK DIAGRAM
 ![image](https://github.com/user-attachments/assets/709173a8-7407-414f-b190-0115385916b6) 
 
-## 🛠️ Project Contents
+##  Project Contents
 
 | Image Preview | Description |
 |---------------|-------------|
@@ -48,9 +48,9 @@ This project demonstrates not only the principles of FSM design and sequential l
 
 ---
 
-## 🧪 Simulation Setup
+##  Simulation Setup
 
-### 🔁 Clock Source (VPULSE)
+###  Clock Source (VPULSE)
 | Parameter      | Value         |
 |----------------|---------------|
 | V1 (Low)       | 0V            |
@@ -58,7 +58,7 @@ This project demonstrates not only the principles of FSM design and sequential l
 | Period         | 50s           |
 | Pulse Width    | 25s           |
 
-### 🔁 Input Pulse (VPULSE)
+###  Input Pulse (VPULSE)
 | Parameter      | Value         |
 |----------------|---------------|
 | V1 (Low)       | 0V            |
@@ -66,14 +66,14 @@ This project demonstrates not only the principles of FSM design and sequential l
 | Period         | 50s           |
 | Pulse Width    | 25s           |
 
-### 🔋 VDC Supply
+###  VDC Supply
 | Parameter      | Value         |
 |----------------|---------------|
 | DC Voltage     | 1.8V          |
 
 ---
 
-## ✅ Output Verification
+##  Output Verification
 
 - The output **Y** goes HIGH as soon as the sequence `1010` is detected.
 - Simulation waveform confirms correct FSM behavior.
@@ -81,7 +81,7 @@ This project demonstrates not only the principles of FSM design and sequential l
 
 ---
 
-## ⚙️ Tools Used
+##  Tools Used
 
 - **Cadence Virtuoso 6.1.8**
 - **Spectre** (for transient & DC analysis)
@@ -89,7 +89,7 @@ This project demonstrates not only the principles of FSM design and sequential l
 
 ---
 
-## 🧠 Insights Gained
+##  Insights Gained
 
 - FSM Design (Mealy machine)
 - K-map simplification for logic expressions
@@ -98,14 +98,14 @@ This project demonstrates not only the principles of FSM design and sequential l
 - Working with **TSPC D flip-flops** for low-power, high-speed design
 
 ---
-## 🔮 Future Work
+##  Future Work
 
 - Add layout view with DRC/LVS verification  
 - Include power and delay analysis using Spectre  
 - RTL version in Verilog for FPGA comparison  
 - Implement using FinFET PDK for scaled power analysis
 
-## ✍️ Author
+##  Author
 
 **SURIYA R K - BE EEE**   
 
