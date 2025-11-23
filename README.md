@@ -1,12 +1,9 @@
 # FSM Sequence Detector (1010) using Cadence Virtuoso
 
-This project implements a **4-bit sequence detector** designed to detect the binary sequence **1010** using a **Mealy Finite State Machine (FSM)** in **Cadence Virtuoso**. The FSM is designed with overlapping sequence detection, which allows it to detect consecutive occurrences of the sequence without missing any bits.
+In this project, I designed a **4-bit sequence detector** detecting a binary sequence of, **1010** using the **Cadence Virtuoso Mealy FSM**. The proposed FSM design considered the detection of **overlapping sequences**, permitting the FSM to detect occurrences of the 1010 sequence consecutively, without the loss of bits. The FSM is implemented and built using **TSPC D Flip-Flops**, where TSPC D Flip-Flops can operate optimally at a **high speed** with a **low power operation**, making them ideal for implementing fast digital circuits. This particular design is based on the **Mealy machine model**
+The design has ultimately been developed for the derivation of next-state logic as well as output equations using truth tables and K-map simplification. The design has also been simulated with Spectre simulation tools for correct functionality. **Transient analysis** of the simulation demonstrates that the FSM **successfully detects a 1010 sequence** the output to overlapping or consecutive sequences as required.
 
-The FSM is realized using **True Single Phase Clock (TSPC) D Flip-Flops**, chosen for their **high-speed operation and low-power consumption**, making them ideal for fast digital circuits. The Mealy machine model is employed, so the output Y responds immediately to the input sequence, providing faster detection compared to a Moore FSM.
-
-The design process involved deriving the **next-state logic and output equations** using truth tables and K-map simplification. The schematic was implemented in Cadence Virtuoso, and simulation was performed using Spectre to verify correct functionality. **Transient analysis** confirmed that the FSM correctly detects the 1010 sequence and produces overlapping outputs where applicable.
-
-This project demonstrates not only the principles of FSM design and sequential logic but also the practical application of TSPC D Flip-Flops for high-performance digital circuits, giving hands-on experience in VLSI design and verification.
+The purpose of this project is to demonstrate not only FSM design and sequential logic principles, to some extent, but more importantly, the real-world application of TSPC D Flip-Flops to High-Performance Digital Circuits and provides a real-life example of both VLSI design and verification.
 
 ---
 
@@ -17,7 +14,7 @@ This project demonstrates not only the principles of FSM design and sequential l
 - Implemented using logic derived from truth tables and K-maps
 - Constructed using **TSPC D flip-flops**
 - Simulated using **Spectre** in **Cadence Virtuoso**
-- Verified with **transient and DC analysis**
+- Verified with **transient analysis**
 
 ---
 
