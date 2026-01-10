@@ -85,28 +85,12 @@ The purpose of this project is to demonstrate not only FSM design and sequential
 - **Linux** environment
 
 ---
-
-##  Insights Gained
-
-- FSM Design (Mealy machine)
-- K-map simplification for logic expressions
-- Schematic and Symbol creation in Cadence
-- Transient simulation and waveform analysis
-- Working with **TSPC D flip-flops** for low-power, high-speed design
-
----
 ##  Future Work
 
 - Add layout view with DRC/LVS verification  
 - Include power and delay analysis using Spectre  
 - RTL version in Verilog for FPGA comparison  
 - Implement using FinFET PDK for scaled power analysis
-
-##  Author
-
-**SURIYA R K - BE EEE**   
-
----
 
 
 
